@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Media Queries</title>
+			<style>
+	
+			.container{
+				display:flex;
+			}
+			.container figure{
+				flex:1;
+				border:1px solid red;
+				border-radius:3px;
+				padding:20px;
+				margin:0 10px;
+			}
+			@media screen and (max-width:768px){
+				.container{
+					flex-direction:column;
+				}
+			}
+			
+		</style>
+	</head>
+	<body>
+		<section class="container">
+			<figure>
+				<img src="../images/secret.jpg" alt="no image"/>
+				<figcaption>The Secret</figcaption>
+			</figure>
+			<figure>
+				<img src="../images/cheese.jpg" alt="no image"/>
+				<figcaption>Who Moved My Cheese</figcaption>
+			</figure>
+			<figure>
+				<img src="../images/gopal.jpg" alt="no image"/>
+				<figcaption>Life's Amazing Scretes</figcaption>
+			</figure>
+			<figure>
+				<img src="../images/richpoor.jpg" alt="no image"/>
+				<figcaption>Rich Dad Poor Dad</figcaption>
+			</figure>
+		</section>
+	</body>
+</html>
+	
